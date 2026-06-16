@@ -6,15 +6,17 @@ st.title("💰 ¿En qué se materializan las decisiones?")
 st.markdown("""
 Las prioridades de inversión muestran cómo se traducen las decisiones económicas en los hogares rurales. 
 
-Administrar el recurso monetario de los Pagos por Servicios Ambientales (PSA) impacta directamente en el ecosistema:
-* **Administración Masculina:** Existe una tendencia marcada hacia la compra de herramientas mecánicas (como motosierras). Esto genera un proceso contraproducente, pues acelera la destrucción del hábitat que se planeaba proteger.
-* **Administración Femenina / Mixta:** El gasto se diversifica hacia insumos de conservación, soberanía alimentaria y educación familiar.
+Administrar el recurso monetario proveniente de los Pagos por Servicios Ambientales (PSA) impacta directamente en la sostenibilidad del ecosistema:
+* **Administración Masculina:** Muestra una tendencia muy marcada hacia la adquisición de herramientas mecánicas (como motosierras). Esto genera un proceso contraproducente, acelerando la presión o destrucción del hábitat que originalmente se pactó proteger.
+* **Administración Femenina o Mixta:** El destino del gasto se diversifica e inclina hacia insumos de conservación, soberanía alimentaria, mejoras del hogar y bienestar familiar.
 """)
 
-# Cargar la imagen del gráfico de barras
-if os.path.exists("uso_recursos_genero-2.jpg"):
-    st.image("uso_recursos_genero-2.jpg", caption="Tendencias de inversión del incentivo por género", use_column_width=True)
-elif os.path.exists("grafica_propiedad_encargado.png"):
-    st.image("grafica_propiedad_encargado.png", caption="Gráfica de Propiedad vs Encargado", use_column_width=True)
+# Cargar la gráfica real de uso de recursos (motosierras)
+if os.path.exists("uso_recursos_genero-2.png"):
+    st.image(
+        "uso_recursos_genero-2.png", 
+        caption="Tendencias de inversión del incentivo económico según el género del decisor", 
+        use_container_width=True
+    )
 else:
-    st.info("Sube el archivo de imagen 'uso_recursos_genero-2.jpg' a la raíz de tu GitHub para ver la gráfica en esta sección.")
+    st.info("Nota: Sube el archivo 'uso_recursos_genero-2.png' a tu GitHub para visualizar la gráfica de tendencias de inversión.")
