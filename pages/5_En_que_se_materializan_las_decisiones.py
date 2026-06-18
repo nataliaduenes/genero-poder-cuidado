@@ -7,9 +7,10 @@ st.markdown("""
 Las prioridades de inversión muestran cómo se traducen las decisiones económicas en los hogares rurales. 
 
 Administrar el recurso monetario proveniente de los Pagos por Servicios Ambientales (PSA) impacta directamente en la sostenibilidad del ecosistema:
-* **Administración Masculina:** Muestra una tendencia muy marcada hacia la adquisición de herramientas mecánicas (como motosierras). Esto genera un proceso contraproducente, acelerando la presión o destrucción del hábitat que originalmente se pactó proteger.
-* **Administración Femenina o Mixta:** El destino del gasto se diversifica e inclina hacia insumos de conservación, soberanía alimentaria, mejoras del hogar y bienestar familiar.
-""")
+* **La producción agropecuaria es la principal prioridad de inversión para todos los grupos. No obstante, las decisiones lideradas por mujeres muestran una mayor orientación hacia salud, educación, bienestar familiar y fortalecimiento del hogar, mientras que las lideradas por hombres se concentran más en infraestructura productiva, maquinaria y activos del predio.
+
+
+Los resultados sugieren que la capacidad de decisión influye en las prioridades de inversión y, por tanto, en las estrategias de sostenibilidad y cuidado desarrolladas en los territorios rurales.""")
 
 # Cargar la gráfica real de uso de recursos (motosierras)
 if os.path.exists("prioridades_inversion_genero.png"):
