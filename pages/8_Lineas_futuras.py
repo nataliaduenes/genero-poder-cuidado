@@ -13,7 +13,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<h2 class="section-header">8. Líneas Futuras de Investigación</h2>',
+    '<h2 class="section-header"> Líneas Futuras de Investigación</h2>',
     unsafe_allow_html=True,
 )
 
