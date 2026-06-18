@@ -13,7 +13,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<h2 class="section-header">7. Reflexiones desde el Territorio</h2>',
+    '<h2 class="section-header"> Reflexiones desde el Territorio</h2>',
     unsafe_allow_html=True,
 )
 
