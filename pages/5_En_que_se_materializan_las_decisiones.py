@@ -12,7 +12,7 @@ Administrar el recurso monetario proveniente de los Pagos por Servicios Ambienta
 """)
 
 # Cargar la gráfica real de uso de recursos (motosierras)
-if os.path.exists("uso_recursos_genero-2.png"):
+if os.path.exists("prioridades_inversión_género.png"):
     st.image(
         "uso_recursos_genero-2.png", 
         caption="Tendencias de inversión del incentivo económico según el género del decisor", 
