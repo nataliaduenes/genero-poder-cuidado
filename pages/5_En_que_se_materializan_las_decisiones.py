@@ -19,4 +19,4 @@ if os.path.exists("uso_recursos_genero-2.png"):
         use_container_width=True
     )
 else:
-    st.info("Nota: Sube el archivo 'uso_recursos_genero-2.png' a tu GitHub para visualizar la gráfica de tendencias de inversión.")
+    st.info("Nota: Sube el archivo 'prioridades_inversión_género.png' a tu GitHub para visualizar la gráfica de tendencias de inversión.")
